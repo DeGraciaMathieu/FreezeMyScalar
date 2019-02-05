@@ -5,7 +5,7 @@
  <a href="https://www.codacy.com/app/DeGraciaMathieu/FreezeMyScalar?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=DeGraciaMathieu/FreezeMyScalar&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/6b3de0e48bf143ae8690b53fdf2a8865"/></a>
 <a href="https://scrutinizer-ci.com/g/degraciamathieu/freezemyscalar/?branch=master"><img src="https://scrutinizer-ci.com/g/DeGraciaMathieu/FreezeMyScalar/badges/quality-score.png?b=master" alt="Scrutinizer Code Quality"></a>
 <a href="https://travis-ci.org/DeGraciaMathieu/FreezeMyScalar"><img src="https://travis-ci.org/DeGraciaMathieu/FreezeMyScalar.svg?branch=master" alt="Build Status"></a>
-<a href="https://scrutinizer-ci.com/g/DeGraciaMathieu/Riddler/?branch=master"><img src="https://scrutinizer-ci.com/g/DeGraciaMathieu/Riddler/badges/coverage.png?b=master" alt="Code Coverage"></a>
+<a href="https://scrutinizer-ci.com/g/DeGraciaMathieu/FreezeMyScalar/?branch=master"><img src="https://scrutinizer-ci.com/g/DeGraciaMathieu/FreezeMyScalar/badges/coverage.png?b=master" alt="Code Coverage"></a>
 <a href="https://packagist.org/packages/degraciamathieu/freezemyscalar"><img src="https://img.shields.io/packagist/v/degraciamathieu/freezemyscalar.svg?style=flat-square" alt="Latest Version on Packagist"></a>
 <a href='https://packagist.org/packages/degraciamathieu/freezemyscalar'><img src='https://img.shields.io/packagist/dt/degraciamathieu/freezemyscalar.svg?style=flat-square' /></a>
 </p>
