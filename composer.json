@@ -1,0 +1,33 @@
+{
+  "name": "degraciamathieu/freezemyscalar",
+  "description": "",
+  "homepage": "https://github.com/degraciamathieu/FreezeMyScalar",
+  "license": "MIT",
+  "keywords": [
+    "scalar"
+  ],
+  "authors": [
+    {
+      "name": "De Gracia Mathieu",
+      "email": "contact@degracia-mathieu.fr"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "phpmetrics/phpmetrics": "^2.4"
+  },
+  "require-dev": {
+      "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5",
+      "mockery/mockery": "^0.9.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "DeGraciaMathieu\\FreezeMyScalar\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DeGraciaMathieu\\FreezeMyScalar\\Tests\\": "tests/"
+    }
+  }
+}
