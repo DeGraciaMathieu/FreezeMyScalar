@@ -50,5 +50,5 @@ require 'vendor\autoload.php';
 use DeGraciaMathieu\FreezeMyScalar\FreezeString;
 
 $scalar = new FreezeString(10); 
-// throws \DeGraciaMathieu\FreezeMyScalar\Exceptions\CheckerException
+// throws \DeGraciaMathieu\FreezeMyScalar\Exceptions\UnexpectedValueException
 ```

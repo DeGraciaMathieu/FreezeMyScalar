@@ -9,7 +9,7 @@ class Checker
     /**
      * @param  string $rule
      * @param  mixed $content
-     * @throws \DeGraciaMathieu\FreezeMyScalar\Exceptions\CheckerException
+     * @throws \DeGraciaMathieu\FreezeMyScalar\Exceptions\UnexpectedValueException
      * @return void
      */
     public static function passes($rule, $content)
@@ -17,7 +17,7 @@ class Checker
         $rule = new $rule;
 
         if (! $rule->verify($content)) {
-            throw new Exceptions\CheckerException();
+            throw new Exceptions\UnexpectedValueException();
         }
     }
 }
