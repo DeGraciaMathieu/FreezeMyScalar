@@ -10,7 +10,6 @@
 <a href='https://packagist.org/packages/degraciamathieu/riddler'><img src='https://img.shields.io/packagist/dt/degraciamathieu/riddler.svg?style=flat-square' /></a>
 </p>
 
-
 # DeGraciaMathieu/FreezeMyScalar
 
 If you can not use php7... you can still use this.
