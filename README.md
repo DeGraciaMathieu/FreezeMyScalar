@@ -13,7 +13,21 @@
 # DeGraciaMathieu/FreezeMyScalar
 
 If you can not use php7... you can still use this.
+```php
+class Object {
+    public function foo(FreezeString $string) {}
+}
 
+$object->foo(new FreezeString('string'));
+```
+Instead of this
+```php
+class Object {
+    public function foo($string) {}
+}
+
+$object->foo('string');
+```
 It's better than nothing ¯\\_(ツ)_/¯
  
 ## Installation
