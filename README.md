@@ -18,7 +18,7 @@ class Object {
     public function foo(FreezeString $string) {}
 }
 
-(new $object)->foo(new FreezeString('string'));
+(new Object)->foo(new FreezeString('string'));
 ```
 Instead of this
 ```php
@@ -26,7 +26,7 @@ class Object {
     public function foo($string) {}
 }
 
-(new $object)->foo('string');
+(new Object)->foo('string');
 ```
 It's better than nothing ¯\\_(ツ)_/¯
  
