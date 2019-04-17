@@ -8,9 +8,9 @@ use DeGraciaMathieu\FreezeMyScalar\FreezeInteger;
 use DeGraciaMathieu\FreezeMyScalar\Contracts\Scalar;
 use DeGraciaMathieu\FreezeMyScalar\Exceptions\UnexpectedValueException;
 
-class ScalarTests extends TestCase 
+class ScalarTests extends TestCase
 {
-    /** 
+    /**
      * @test
      */
     public function freeze_integer()
@@ -22,7 +22,7 @@ class ScalarTests extends TestCase
         $this->assertEquals($scalar->content(), 10);
     }
 
-    /** 
+    /**
      * @test
      */
     public function string_integer()
@@ -32,15 +32,16 @@ class ScalarTests extends TestCase
         $this->isInstanceOf(FreezeString::class, $scalar);
         $this->isInstanceOf(Scalar::class, $scalar);
         $this->assertEquals($scalar->content(), 'string');
-    }  
+    }
 
-    /** 
+    /**
      * @test
      */
     public function unexpected_value()
     {
         $this->expectException(UnexpectedValueException::class);
+        $this->expectExceptionMessage('');
 
         new FreezeString(10);
-    }   
+    }
 }
